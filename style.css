@@ -1,0 +1,1075 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+
+  }
+body{
+    font-family: 'Montserrat Alternates';
+    background: #ffff;
+    height: 100vh;
+
+}
+
+.headerglav{
+    background-blend-mode: multiply;
+    background-color: rgba(51, 49, 49, 0.5);
+    background-image: url('./img/1.png');
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    height: 390px;
+	width: 100%;
+  }
+
+.headerglav h1{
+    color: #EDDA2C;
+    position: absolute;
+    padding-left: 130px;
+    top: 60px;
+    font-size: 75px;
+ }  
+
+.headerglav p{
+    color: #FFFFFF;
+    position: absolute;
+    padding-left: 130px;
+    top: 250px;
+    font-size: 24px; 
+ }
+nav{
+    margin-top: -730px;
+    margin-left: 650px;
+    width: 700px;
+    z-index: 92;
+    height: 45px;
+    background: #EDDA2C;
+    word-spacing: 15px ;
+    border-radius: 18px;
+    position: absolute;
+    display: inline-block
+}
+
+nav b{
+    color: #707070;;
+font-size: 24px;
+line-height: normal;
+text-decoration: none;
+margin-left: 75px;
+
+}
+nav a{
+    text-decoration: none;
+}
+
+
+
+
+.block1{
+   background-color: #707070;
+   width: 350px;
+   height: 250px;
+   border-radius: 10px;
+   padding-top: 300px;
+
+	position:absolute;
+	left:250px;
+	top:500px;
+	border-radius: 10px;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+    
+
+
+}
+.block1 img{   
+height:200px;
+width:320px;
+border-radius:10px;
+left:15px;
+top:-30px;
+position:absolute;
+
+}
+
+
+.text1 h2{
+    color:#ffffff;
+    margin-top: -100px;
+    margin-left: 10px;
+
+
+}
+
+.text1 p{
+    color:#ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+
+.text1 h3{
+    color:#EDDA2C;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+
+
+
+.text2 h2{
+    color:#ffffff;
+    margin-top: -100px;
+    margin-left: 10px;
+
+
+}
+
+.text2 p{
+    color:#ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+.text2 h3{
+    color:#EDDA2C;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+
+
+.text3 h2{
+    color:#ffffff;
+    margin-top: -100px;
+    margin-left: 10px;
+
+
+}
+
+.text3 p{
+    color:#ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+.text3 h3{
+    color:#EDDA2C;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+
+
+}
+
+
+
+
+
+.block2{
+    background-color: #707070;
+    width: 350px;
+    height: 330px;
+    border-radius: 10px;
+    padding-top: 300px;
+    position:absolute;
+    left:780px;
+    top:500px;
+    border-radius: 10px;
+    background-repeat:no-repeat;
+    background-size:cover;
+ 
+ 
+ }
+
+ .block2 img{
+ 
+    height:200px;
+    width:320px;
+    border-radius:10px;
+    left:15px;
+    top:-30px;
+    position:absolute;
+    
+    }
+
+
+ .block3{
+    background-color: #707070;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+  padding-top: 300px;
+     position:absolute;
+     left:1300px;
+     top:500px;
+     border-radius: 10px;
+     background-repeat:no-repeat;
+     background-size:cover;
+ 
+ 
+ }
+ 
+ .block3 img{
+    height:200px;
+    width:320px;;
+    border-radius:10px;
+    left:15px;
+    top:-30px;
+    position:absolute;
+    
+    }
+.block4{
+background-color: #707070;
+width: 1920px;
+height: 180px;
+margin-top: 700px;
+ }
+
+.block4 h1{
+
+    font-size: 50px;
+    color: #EDDA2C;
+    padding-left: 400px;
+    padding-top: 70px;
+
+}
+
+.kabinet{
+    margin-left: 150px;
+}
+.block_yellow{
+    width: 1920px;
+    height: 100px;
+background-color: #EDDA2C;
+position: absolute;
+}
+
+.header_kab{
+    width: 1920px;
+    height: 100px;
+    position: absolute;
+    background-color: #707070; 
+    margin-top: 20px;
+}
+.header_kab h1{
+    color: #EDDA2C;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.nav_kab{
+    background-color: #EDDA2C;
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    margin-top: -53px;
+    margin-left: 1000px;
+
+    border-radius:18px ;
+}
+
+.nav_kab a{
+    color: #000000;
+    text-decoration: none;
+}
+.nav_kab li{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+
+.block_zayvka{
+    margin-top: 70px;
+    margin-left: 500px;
+    display: inline-block;
+    background-color: #707070;
+    width: 900px;
+    height: 700px;
+    border-radius: 50px;
+}
+
+.block_zayvka label{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-left: 80px;
+}
+
+input.name {
+    background-color: #EDEDED;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 74px;
+}
+
+.block_zayvka select{
+    background-color: #EDEDED;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+.block_zayvka textarea{
+    background-color: #EDEDED;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+
+.block_zayvka button{
+ width: 377px;
+ height: 86px;
+ background-color: #EDDA2C;
+ color: #000000;
+ border-radius: 18px;
+ font-size: 35px;
+ margin-left: 250px;
+ margin-top: 70px;
+}
+.sozdanie p{
+    font-size: 50px;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+input.filename{
+
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 146px;  
+    color: #FFFFFF;
+}
+
+
+
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    backdrop-filter: blur(7px);
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates';
+}
+
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    margin-left: 650px;
+    margin-top: 200px;
+}
+
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(156, 156, 156, 0.5);
+    backdrop-filter: blur(7px);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 5px solid rgba(255, 255, 255, 0.507);
+    border-radius: 50px;
+    outline: 0;
+}
+
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 75px;
+    font-size: 50px;
+    color: #EDDA2C;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #EDDA2C;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+     position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    overflow: auto;  
+}
+
+.modal-body input{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: 'Montserrat Alternates';
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+.cd-user-modal{
+    border-color: #000000;
+    border-radius: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 2px solid #FFF;
+    border-radius: 45px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    height: 90px;
+    width: 500px;
+}
+.signn {
+    border: 13px solid #FFF;
+    border-radius: 45px; 
+    background-color: #ffffff;
+}
+.cd-switcher input
+{
+
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.cd-switcher a {
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+}
+.cd-switcher .signn{
+    color: #505260;
+    
+}
+   .cd-switcher li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  .modal-reg {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    backdrop-filter: blur(7px);
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates';
+}
+
+/* при отображении модального окно */
+.modal-reg:target {
+    opacity: 1; /* делаем окно видимым */
+	pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog-reg {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content-reg {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(156, 156, 156, 0.5);
+    backdrop-filter: blur(7px);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 5px solid rgba(255, 255, 255, 0.507);
+    border-radius: 50px;
+    outline: 0;
+}
+
+/* свойства для заголовка модального окна */
+.modal-header-reg {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+
+}
+.modal-title-reg {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 75px;
+    font-size: 50px;
+    color: #EDDA2C;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #EDDA2C;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body-reg {
+     position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding-top: 10px;
+    padding-left: 15px;
+    overflow: auto;  
+}
+.modal-body-reg p {
+color: #FFF;
+font-size: 22px;
+font-weight: 300;
+display: inline-block;
+margin-left: 10px;
+}
+
+.modal-body-reg input.consent {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+ }
+
+.modal-body-reg input{
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: 'Montserrat Alternates';
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+
+.cd-user-modal-reg{
+    border-color: #000000;
+    border-radius: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 2px solid #FFF;
+    border-radius: 45px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    height: 90px;
+    width: 500px;
+}
+
+
+.signn-reg {
+    border: 13px solid #FFF;
+    border-radius: 45px; 
+    background-color: #ffffff;
+}
+.cd-switcher .signn{
+    color: #505260;
+}
+   .cd-switcher-reg li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .cd-switcher-reg input
+  {
+    font-weight: 400;
+      border: 13px solid #FFF;
+      border-radius: 45px; 
+      background-color: #ffffff;
+      font-size: 40px;
+      color: #ffffff;
+      text-decoration: none;
+      width: 100%;
+      height: 50px;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+  }
+  
+  .cd-switcher-reg a {
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+}
+  .cd-switcher-reg .signn-reg{
+      color: #505260;
+  }
+
+.lichkab p {
+    font-family: 'Montserrat Alternates';
+    font-size: 50px;
+    padding-left: 180px;
+    padding-top: 200px;
+}
+
+.info_user{
+    padding-top: 20px;
+    
+}
+.info_user img{
+    width: 360px;
+    height: 210px;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+.info_user_dann{
+    margin-top: -210px;
+    margin-left: 70px;
+}
+.info_user p{
+    font-size: 37px;
+    font-family: 'Montserrat Alternates';
+    padding-left: 500px;
+    padding-top: 20px;
+}
+.exitkab{
+    width: 284px;
+    height: 102px;
+    background-color: #EDDA2C;
+    border-radius: 10px;
+    border: none;
+    margin-left: 1210px;
+    margin-top: -140px;
+    position: absolute;
+}
+.exitkab a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Montserrat Alternates';
+}
+
+.zayavka_kab {
+ padding-top: 100px;
+}
+
+.zayavka_kab h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.sort_kab p{
+    font-size: 27px;
+    margin-left: 710px;
+    margin-top: 30px;
+}
+.sort_kab select{
+    width: 270px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 26px;
+    font-family: 'Montserrat Alternates';
+    text-align: center;
+}
+.sort_kab option{
+    font-size: 26px;
+    font-family: 'Montserrat Alternates';
+}
+
+.zayavka_1 {
+    width: 830px;
+    background-color: #707070;
+    margin-left: 540px;
+    margin-top: 35px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.zayavka_1 h3{
+     font-size: 45px;
+     color: #FFF;
+     font-family: 'Montserrat Alternates';
+     margin-top: 10px;
+     margin-left: 60px;
+     font-weight: 500;
+}
+.zayavka_1 p{
+    font-size: 27px;
+    color: #FFF;
+    font-family: 'Montserrat Alternates';
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: 300;
+}
+.status{
+    background-color: #EDDA2C;
+    width: 245px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 586px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    font-family: 'Montserrat Alternates';
+    margin-top: -33px;
+}
+
+.chet{
+    padding-left: 1400px;
+    margin-top: -100px;
+    font-size: 100px;
+    color: #EDDA2C;
+    
+}
+.modal_zayvka {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal_zayvka_content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.table{
+    width: 700px;
+    height: 100px;
+    margin-top: 200px;
+}
+.foto2{
+    height:220px;
+    width:330px;
+    border-radius:10px;
+    left:260px;
+    top:470px;
+    position:absolute;  
+    background-image: url("img/2.png");
+    background-size: cover;
+    z-index: 10;
+    ms-transform: scale (1.5);
+}
+
+.foto2:hover{
+    background-image: url("img/5.jpg");
+}
+
+.foto3{
+    height:220px;
+    width:330px;
+    border-radius:10px;
+    left:790px;
+    top:470px;
+    position:absolute;  
+    background-image: url("img/3.png");
+    background-size: cover;
+    z-index: 10;
+    ms-transform: scale (1.5);
+}
+
+.foto3:hover{
+    background-image: url("img/6.png");
+}
+
+.foto4{
+    height:220px;
+    width:330px;
+    border-radius:10px;
+    left:1310px;
+    top:470px;
+    position:absolute;  
+    background-image: url("img/4.png");
+    background-size: cover;
+    z-index: 10;
+    ms-transform: scale (1.5);
+}
+
+.foto4:hover{
+    background-image: url("img/7.jpg");
+}
+.kategorii {
+    padding-top: 100px;
+}
+.kategorii h2{
+    text-align: center;
+       font-size: 50px;
+       font-weight: 500;
+}
+
+.block_kategorii{
+    width: 1190px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 360px;
+    margin-top: 25px;
+}
+
+.dobav_kat{
+    background-color: #EDDA2C;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.spisok_kat {
+    margin-top: 40px;
+}
+.spisok_kat p{
+    width: 1187px;
+    height: 53px;
+    font-size: 35px;
+    border: 2px solid black;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.spisok_kat li{
+    width: 1187px;
+    height: 53px;
+    font-size: 30px;
+    border: 2px solid black;
+    font-weight: 500;
+    padding-left: 90px;
+    margin-top: 5px;
+}
+
+.add-category input{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.delete-category{
+    margin-left: 710px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    
+}
+
+.change_status select{
+    background-color: #EDDA2C;
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.change_status button{
+    background-color:#EDDA2C;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+
+[id^="photo-container-"]{
+    margin-left: 60px;
+    color: #FFF;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+}
+[id^="photo-container-"] input{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+[id^="reason-container-"] {
+    margin-left: 60px;
+    color: #FFF;
+    margin-top: 10px;
+    font-size: 20px;
+}
+[id^="reason-container-"] input{
+    margin-left: 10px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+}
